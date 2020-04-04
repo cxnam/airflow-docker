@@ -12,6 +12,6 @@ Pull the image
 
     docker pull namcx/airflow-docker
 
-By default, docker-airflow runs Airflow with **LocalExecutor** :
+By default, airflow-docker runs Airflow with **LocalExecutor** :
 
     docker run -d -p 8080:8080 namcx/airflow-docker webserver
